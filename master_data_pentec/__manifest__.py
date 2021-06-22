@@ -2,7 +2,7 @@
 {
     'author': "Pentec",
     'website': "http://www.pentec.es",
-    'name': "Master Data Pentec",
+    'name': "Master_Data_Pentec",
     'summary': """Master Data Pentec""",
     'version': '14.0.1.0.0',
     'depends': [],
