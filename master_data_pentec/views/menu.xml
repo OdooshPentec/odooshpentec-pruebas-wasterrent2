@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<!-- Standard Menu -->
+	<menuitem
+		name="Simple domains"
+		id="menu_root_simple_domains"
+		parent="base.menu_custom"
+	/>
+
+	<menuitem
+		name="Simple domains"
+		id="menu_simple_domains"
+		parent="menu_root_simple_domains"
+		action="action_simple_domain"
+	/>
+
+</odoo>

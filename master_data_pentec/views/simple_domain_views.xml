@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- VISTAS DE TREE-->
+    <!-- Tree de los dominios simples -->
+    <record id="view_simple_domain_tree" model="ir.ui.view">
+        <field name="name">view.simple.domain.tree</field>
+        <field name="model">simple.domain</field>
+        <field name="arch" type="xml">
+            <tree string="Simple domains" editable="bottom">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="type"/>
+                <field name="description"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_simple_domain" model="ir.actions.act_window">
+        <field name="name">Simple domains</field>
+        <field name="res_model">simple.domain</field>
+        <field name="view_mode">form,tree</field>
+    </record>
+
+    <record id="action_simple_domain_tree" model="ir.actions.act_window.view">
+		<field name="view_mode">tree</field>
+		<field name="view_id" ref="view_simple_domain_tree"/>
+		<field name="act_window_id" ref="action_simple_domain"/>
+	</record>
+</odoo>

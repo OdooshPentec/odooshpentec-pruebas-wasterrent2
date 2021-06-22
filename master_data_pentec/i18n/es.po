@@ -1,0 +1,112 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* master_data_pentec
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-21 13:49+0000\n"
+"PO-Revision-Date: 2020-02-21 13:49+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__code
+msgid "Code"
+msgstr "Código"
+
+#. module: master_data_pentec
+#: code:addons/master_data_pentec/models/simple_domain.py:31
+#, python-format
+msgid "Code field as unique"
+msgstr "Campo Código como único"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: master_data_pentec
+#: model:ir.model,name:master_data_pentec.model_simple_domain
+msgid "Dominio simple"
+msgstr ""
+
+#. module: master_data_pentec
+#: sql_constraint:simple.domain:0
+msgid "El campo código debe ser único para un mismo tipo"
+msgstr ""
+
+#. module: master_data_pentec
+#: code:addons/master_data_pentec/models/simple_domain.py:33
+#, python-format
+msgid "Field Code must be unique for the same type"
+msgstr "El campo código debe ser único para un mismo tipo"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__id
+msgid "ID"
+msgstr ""
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: master_data_pentec
+#: code:addons/master_data_pentec/models/simple_domain.py:9
+#, python-format
+msgid "Simple domain"
+msgstr "Dominio simple"
+
+#. module: master_data_pentec
+#: model:ir.actions.act_window,name:master_data_pentec.action_simple_domain
+#: model:ir.ui.menu,name:master_data_pentec.menu_root_simple_domains
+#: model:ir.ui.menu,name:master_data_pentec.menu_simple_domains
+#: model_terms:ir.ui.view,arch_db:master_data_pentec.view_simple_domain_tree
+msgid "Simple domains"
+msgstr "Dominios simples"
+
+#. module: master_data_pentec
+#: model:ir.model.fields,field_description:master_data_pentec.field_simple_domain__type
+msgid "Type"
+msgstr "Tipo"
