@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="form_product_template_pentec_equipment" model="ir.ui.view">
+        <field name="name">Form Product Template Pentec</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="priority" eval="1"/>
+        <field name="arch" type="xml">
+            <field name="categ_id" position="attributes">
+                <attribute name="options">{'no_create': True, 'no_create_edit': True, 'no_open': True}</attribute>
+            </field>
+            <xpath expr="//div[@name='options']" position="inside">
+                <div>
+                    <label for="product_class"/>
+                    <field name="product_class" readonly="True"/>
+                </div>
+                <div attrs="{'invisible': [('product_class','not in', ['is_vehicle', 'is_vehicle_equip'])]}">
+                    <label for="equipment_id"/>
+                    <field name="equipment_id" readonly="1"/>
+                </div>
+            </xpath>
+            <field name="image_1920" position="attributes">
+                <attribute name="attrs">{'invisible': [('product_class','not in', ['is_vehicle', 'is_vehicle_equip'])]}</attribute>
+            </field>
+            <field name="image_1920" position="after">
+                <field name="equipment_img3" widget="image" style="width:100px;float: right;" attrs="{'invisible': [('product_class','not in', ['is_vehicle', 'is_vehicle_equip'])]}"/>
+                <field name="equipment_img2" widget="image" style="width:100px;float: right;" attrs="{'invisible': [('product_class','not in', ['is_vehicle', 'is_vehicle_equip'])]}"/>
+                <field name="equipment_img1" widget="image" style="width:400px;float: right;padding-right:10px" attrs="{'invisible': [('product_class','not in', ['is_vehicle', 'is_vehicle_equip'])]}"/>
+            </field>
+            <xpath expr="//notebook" position="inside">
+                <page name="equipment" string="Vehicle/Equipment" attrs="{'invisible': [('product_class','not in', ['is_vehicle', 'is_vehicle_equip'])]}">
+                    <group col="4">
+                        <field name="equipment_type_id" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}"/>
+                        <field name="state" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}"/>
+
+                        <field name="equipment_category_id" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}"/>
+                        <field name="location" />
+
+                        <field name="equipment_brand_id" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}"/>
+                        <field name="last_km"/>
+
+                        <field name="equipment_model_id" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}"/>
+                        <field name="car_registration"/>
+
+                        <field name="equipment_version" />
+                        <field name="current_customer" />
+
+                        <field name="equipment_chassis_number" attrs="{'invisible': [('product_class','!=', 'is_vehicle')]}"/>
+                        <field name="id_webfleet" />
+
+                        <field name="equipment_serial_no" attrs="{'invisible': [('product_class','!=', 'is_vehicle_equip')]}"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

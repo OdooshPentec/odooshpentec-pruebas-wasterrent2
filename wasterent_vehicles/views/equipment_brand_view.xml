@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- VISTAS DE TREE-->
+    <record id="view_equipment_brand_tree" model="ir.ui.view">
+        <field name="name">view.equipment.brand.tree</field>
+        <field name="model">equipment.brand</field>
+        <field name="arch" type="xml">
+            <tree string="Brands" editable="bottom">
+                <field name="name"/>
+                <field name="equipment_type_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_equipment_brand" model="ir.actions.act_window">
+        <field name="name">Brands</field>
+        <field name="res_model">equipment.brand</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <record id="action_simple_domain_tree" model="ir.actions.act_window.view">
+		<field name="view_mode">tree</field>
+		<field name="view_id" ref="view_equipment_brand_tree"/>
+		<field name="act_window_id" ref="action_equipment_brand"/>
+	</record>
+
+    <menuitem
+		name="Equipment settings"
+		id="menu_root_equipment_settings"
+		parent="base.menu_custom"
+	/>
+
+	<menuitem
+		name="Equipment brands"
+		id="menu_equipment_brands"
+		parent="menu_root_equipment_settings"
+		action="action_equipment_brand"
+	/>
+
+        <!-- VISTAS DE TREE-->
+    <record id="view_equipment_model_tree" model="ir.ui.view">
+        <field name="name">view.equipment.model.tree</field>
+        <field name="model">equipment.model</field>
+        <field name="arch" type="xml">
+            <tree string="Models" editable="bottom">
+                <field name="name"/>
+                <field name="brand_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_equipment_model" model="ir.actions.act_window">
+        <field name="name">Equipment Models</field>
+        <field name="res_model">equipment.model</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <record id="action_equipment_model_tree" model="ir.actions.act_window.view">
+		<field name="view_mode">tree</field>
+		<field name="view_id" ref="view_equipment_model_tree"/>
+		<field name="act_window_id" ref="action_equipment_model"/>
+	</record>
+
+	<menuitem
+		name="Equipment models"
+		id="menu_equipment_models"
+		parent="menu_root_equipment_settings"
+		action="action_equipment_model"
+	/>
+</odoo>

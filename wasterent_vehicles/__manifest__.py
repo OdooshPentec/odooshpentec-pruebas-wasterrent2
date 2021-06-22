@@ -1,0 +1,25 @@
+{
+  'name':'Wasterent Vehicles',
+  'description': '',
+  'version':'14.0.1.0.0',
+  'author':'Rubén F.',
+  'website': "http://www.pentec.es/",
+  #'images': ['static/description/icon.png',],
+  'application': True,
+  'data': [
+    'security/ir.model.access.csv',
+    'data/simple_domain.xml',
+    'views/equipment_brand_view.xml',
+    'views/product_template_view.xml',
+    'views/maintenance_equipment_view.xml',
+    'views/account_move_view.xml',
+  ],
+  'depends': ['account',
+              'hr_maintenance',
+              'master_data_pentec',
+              'maintenance',
+              'product',
+              'stock',
+               ],
+
+}

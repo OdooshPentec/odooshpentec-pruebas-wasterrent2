@@ -1,0 +1,707 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* wasterent_vehicles
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-01 09:48+0000\n"
+"PO-Revision-Date: 2021-06-01 09:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/><br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/>\n"
+"                <span style=\"font-size:1.625rem\" attrs=\"{'invisible': [('equipment_type_id','!=', 1)]}\">Dimensions</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/><br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/>\n"
+"                <span style=\"font-size:1.625rem\" attrs=\"{'invisible': [('equipment_type_id','!=', 1)]}\">Documentation</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/><br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/>\n"
+"                <span style=\"font-size:1.625rem\" attrs=\"{'invisible': [('equipment_type_id','!=', 1)]}\">ITV</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/><br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/>\n"
+"                <span style=\"font-size:1.625rem\" attrs=\"{'invisible': [('equipment_type_id','!=', 2)]}\">Gearbox</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/><br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/>\n"
+"                <span style=\"font-size:1.625rem\" attrs=\"{'invisible': [('equipment_type_id','!=', 4)]}\">Engine</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/><br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/>\n"
+"                <span style=\"font-size:1.625rem\" attrs=\"{'invisible': [('equipment_type_id','!=', 6)]}\">Extinguisher</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/><br attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\"/>\n"
+"                <span style=\"font-size:1.625rem\" attrs=\"{'invisible': [('equipment_type_id','=', 7)]}\">Warranties</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<span style=\"font-size:1.625rem\" attrs=\"{'invisible': "
+"[('equipment_type_id','!=', 1)]}\">Tachograph</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid ""
+"<span style=\"font-size:1.625rem\" attrs=\"{'invisible': "
+"[('equipment_type_id','!=', 1)]}\">Vehicle</span>"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__active
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__active
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__product_id
+msgid "Associated Product"
+msgstr "Producto asociado"
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid "Associated equipment"
+msgstr "Equipo asociado"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__associated_equipment_ids
+msgid "Associated equipments"
+msgstr "Equipos asociados"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__associated_equipment_id
+msgid "Associated to"
+msgstr "Asociado a"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__axle_distance_1_2
+msgid "Axle distance 1-2 (mm)"
+msgstr "Distancia ejes 1-2 (mm)"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__axle_distance_2_3
+msgid "Axle distance 2-3 (mm)"
+msgstr "Distancia ejes 2-3 (mm)"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__axles_no
+msgid "Axles no"
+msgstr "Núm. ejes"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__name
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__brand_id
+msgid "Brand"
+msgstr "Marca"
+
+#. module: wasterent_vehicles
+#: model:ir.actions.act_window,name:wasterent_vehicles.action_equipment_brand
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.view_equipment_brand_tree
+msgid "Brands"
+msgstr "Marcas"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__cc
+msgid "CC"
+msgstr "Cilindrada"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__ce_certificate
+msgid "CE certificate"
+msgstr "Certificado CE"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__coc_1
+msgid "COC 1st phase"
+msgstr "COC 1ª fase"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__coc_2
+msgid "COC 2nd phase"
+msgstr "COC 2ª fase"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__car_registration
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__car_registration
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__car_registration
+msgid "Car registration"
+msgstr "Matrícula actual"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__car_registration2
+msgid "Car registration 2"
+msgstr "Matrícula anterior"
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/maintenance_equipment.py:0
+#: model:ir.model.constraint,message:wasterent_vehicles.constraint_maintenance_equipment_car_registration2_unique
+#, python-format
+msgid "Car registration 2 be unique for the equipment"
+msgstr "Matrícula 2 debe ser única por equipo"
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/maintenance_equipment.py:0
+#, python-format
+msgid "Car registration be unique for the equipment"
+msgstr "La matrícula tiene que ser única por Vehículo"
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid "Categoría mantenimiento"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__chassis_number
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_chassis_number
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_chassis_number
+msgid "Chassis number"
+msgstr "Nº de bastidor"
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/maintenance_equipment.py:0
+#: code:addons/wasterent_vehicles/models/product_template.py:0
+#, python-format
+msgid "Chassis number be unique for the equipment"
+msgstr "El nº de bastidor tiene que ser único por Vehículo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__create_uid
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__create_uid
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__create_date
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__create_date
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__current_customer
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__current_customer
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__current_customer
+msgid "Current customer"
+msgstr "Cliente actual"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__data_sheet
+msgid "Data sheet"
+msgstr "Ficha técnica"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__date_next_itv
+msgid "Date next ITV"
+msgstr "Fecha próxima ITV"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__display_name
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__display_name
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__display_name
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__display_name
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__driving_license
+msgid "Driving license"
+msgstr "Permiso de circulación"
+
+#. module: wasterent_vehicles
+#: model:ir.model.constraint,message:wasterent_vehicles.constraint_maintenance_equipment_chassis_number_unique
+#: model:ir.model.constraint,message:wasterent_vehicles.constraint_product_template_chassis_number_unique
+msgid "El nº de bastidor tiene que ser único por Vehículo"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.constraint,message:wasterent_vehicles.constraint_product_template_equipment_serial_no_unique
+msgid "El nº de serie tiene que ser único por Equipo"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__equipment_id
+msgid "Equipment"
+msgstr "Equipo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_category_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_category_id
+msgid "Equipment Category"
+msgstr "Categoría de Equipo"
+
+#. module: wasterent_vehicles
+#: model:ir.actions.act_window,name:wasterent_vehicles.action_equipment_model
+msgid "Equipment Models"
+msgstr "Modelos de equipos"
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/equipment_brand.py:0
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_brand_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_brand_rel
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_brand_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_brand_id
+#, python-format
+msgid "Equipment brand"
+msgstr "Marca"
+
+#. module: wasterent_vehicles
+#: model:ir.ui.menu,name:wasterent_vehicles.menu_equipment_brands
+msgid "Equipment brands"
+msgstr "Marcas"
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/equipment_images.py:0
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_images_ids
+#, python-format
+msgid "Equipment images"
+msgstr "Imágenes"
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/equipment_model.py:0
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_model_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_model_rel
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_model_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_model_id
+#, python-format
+msgid "Equipment model"
+msgstr "Modelo"
+
+#. module: wasterent_vehicles
+#: model:ir.ui.menu,name:wasterent_vehicles.menu_equipment_models
+msgid "Equipment models"
+msgstr "Modelos de equipos"
+
+#. module: wasterent_vehicles
+#: model:ir.ui.menu,name:wasterent_vehicles.menu_root_equipment_settings
+msgid "Equipment settings"
+msgstr "Configuración de equipos"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__equipment_type_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_type_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_type_rel
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_type_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_type_id
+msgid "Equipment type"
+msgstr "Tipo de Equipo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_version_rel
+msgid "Equipment version"
+msgstr "Versión"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__euro_regulation
+msgid "Euro regulation"
+msgstr "Normativa Euro"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__exempt_itv
+msgid "Exempt ITV"
+msgstr "ITV Exento"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__exempt_tachograph
+msgid "Exempt tachograph"
+msgstr "Tacógrafo EXENTO"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__exploded_manual
+msgid "Exploded manual"
+msgstr "Manual de despiece"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__fabrication_date
+msgid "Fabrication date"
+msgstr "Fecha de fabricación"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__fuel_type
+msgid "Fuel type"
+msgstr "Combustible"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__gearbox_type
+msgid "Gearbox type"
+msgstr "Tipo caja cambios"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__height
+msgid "Height (mm)"
+msgstr "Alto (MM)"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__id
+msgid "ID"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__id_webfleet
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__id_webfleet
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__id_webfleet
+msgid "ID Webfleet"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__image
+msgid "Image"
+msgstr "Imagen"
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid "Images"
+msgstr "Imágenes"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__img1
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_img1
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_img1
+msgid "Img1"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__img2
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_img2
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_img2
+msgid "Img2"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__img3
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_img3
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_img3
+msgid "Img3"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model,name:wasterent_vehicles.model_equipment_images
+msgid "Imágenes"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__insurance_payment_receipt
+msgid "Insurance payment receipt"
+msgstr "Recibo de pago del seguro"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__insurance_policy
+msgid "Insurance policy"
+msgstr "Póliza seguro"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__insurance_validity
+msgid "Insurance validity"
+msgstr "Vigencia seguro"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields.selection,name:wasterent_vehicles.selection__maintenance_equipment__product_class__is_internal_equip
+msgid "Is internal equipment"
+msgstr "Es equipo interno"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields.selection,name:wasterent_vehicles.selection__product_template__product_class__is_product
+msgid "Is product"
+msgstr "Es producto"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields.selection,name:wasterent_vehicles.selection__maintenance_equipment__product_class__is_vehicle
+#: model:ir.model.fields.selection,name:wasterent_vehicles.selection__product_template__product_class__is_vehicle
+msgid "Is vehicle"
+msgstr "Es vehículo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields.selection,name:wasterent_vehicles.selection__maintenance_equipment__product_class__is_vehicle_equip
+#: model:ir.model.fields.selection,name:wasterent_vehicles.selection__product_template__product_class__is_vehicle_equip
+msgid "Is vehicle equipment"
+msgstr "Es equipo de vehículo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__kw
+msgid "KW"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__keys_code
+msgid "Keys code"
+msgstr "Código de llaves"
+
+#. module: wasterent_vehicles
+#: model:ir.model.constraint,message:wasterent_vehicles.constraint_maintenance_equipment_car_registration_unique
+msgid "La matrícula tiene que ser única por Vehículo"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand____last_update
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images____last_update
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model____last_update
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment____last_update
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__write_uid
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__write_uid
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__write_date
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__write_date
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__last_hours_running
+msgid "Last hours running"
+msgstr "Último horas de marcha"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__last_km
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__last_km
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__last_km
+msgid "Last km"
+msgstr "Último kilometraje"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__last_registration_date
+msgid "Last registration date"
+msgstr "Fecha última matriculación"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__length
+msgid "Length"
+msgstr "Longitud"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__location
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__location
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec
+msgid "Location"
+msgstr "Localización"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__mma
+msgid "MMA"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model,name:wasterent_vehicles.model_maintenance_equipment
+msgid "Maintenance Equipment"
+msgstr "Equipo de mantenimiento"
+
+#. module: wasterent_vehicles
+#: model:ir.model,name:wasterent_vehicles.model_equipment_brand
+msgid "Marca"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__name
+msgid "Model"
+msgstr "Modelo"
+
+#. module: wasterent_vehicles
+#: model:ir.model,name:wasterent_vehicles.model_equipment_model
+msgid "Modelo"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.view_equipment_model_tree
+msgid "Models"
+msgstr "Modelos"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__name
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_name_rel
+msgid "Name"
+msgstr "Nombre"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__categ_id
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+#. module: wasterent_vehicles
+#: model:ir.model,name:wasterent_vehicles.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__product_class
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__product_class
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__product_class
+msgid "Product class"
+msgstr "Clase de producto"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__purchase_date
+msgid "Purchase date"
+msgstr "Fecha de compra"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__radio_code
+msgid "Radio code"
+msgstr "Código de radio"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__review_date
+msgid "Review date"
+msgstr "Fecha de revisión"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__review_type
+msgid "Review type"
+msgstr "Tipo de revisión"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,help:wasterent_vehicles.field_maintenance_equipment__categ_id
+#: model:ir.model.fields,help:wasterent_vehicles.field_product_product__equipment_category_id
+#: model:ir.model.fields,help:wasterent_vehicles.field_product_template__equipment_category_id
+msgid "Select category for the current product"
+msgstr "Seleccione la categoría para el producto actual"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_brand__sequence
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__sequence
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_model__sequence
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_serial_no
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_serial_no
+msgid "Serial Number"
+msgstr "Nº de serie"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_serial_no_rel
+msgid "Serial no"
+msgstr "Nº de serie"
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/product_template.py:0
+#, python-format
+msgid "Serial number be unique for the equipment"
+msgstr "El nº de serie tiene que ser único por Equipo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__state
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__state
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__state
+msgid "State"
+msgstr "Estado"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__tachograph
+msgid "Tachograph"
+msgstr "Tacógrafo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__tachograph_exemption_certificate
+msgid "Tachograph exemption certificate"
+msgstr "Certificado de excención tacógrafo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_equipment_images__type_id
+msgid "Type"
+msgstr "Tipo imagen"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__user_manual
+msgid "User manual"
+msgstr "Manual de usuario"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_id
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_id
+#: model_terms:ir.ui.view,arch_db:wasterent_vehicles.form_product_template_pentec_equipment
+msgid "Vehicle/Equipment"
+msgstr "Vehículo/Equipo"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__equipment_version
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_product__equipment_version
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_product_template__equipment_version
+msgid "Version"
+msgstr "Versión"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__warranty_end_date_customer
+msgid "Warranty end date (Customer)"
+msgstr "Fecha finalización garantía (cliente)"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__warranty_end_date_supplier
+msgid "Warranty end date (Supplier)"
+msgstr "Fecha finalización garantía (proveedor)"
+
+#. module: wasterent_vehicles
+#: model:ir.model.fields,field_description:wasterent_vehicles.field_maintenance_equipment__width
+msgid "Width (mm)"
+msgstr "Ancho (MM)"
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/maintenance_equipment.py:0
+#, python-format
+msgid "car_registration2_unique"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/maintenance_equipment.py:0
+#, python-format
+msgid "car_registration_unique"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/maintenance_equipment.py:0
+#: code:addons/wasterent_vehicles/models/product_template.py:0
+#, python-format
+msgid "chassis_number_unique"
+msgstr ""
+
+#. module: wasterent_vehicles
+#: code:addons/wasterent_vehicles/models/product_template.py:0
+#, python-format
+msgid "equipment_serial_no_unique"
+msgstr ""

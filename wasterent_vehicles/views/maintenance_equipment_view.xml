@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="form_product_template_pentec" model="ir.ui.view">
+        <field name="active" eval="True"/>
+        <field name="arch" type="xml">
+            <field name="maintenance_team_id" position="replace"></field>
+            <field name="assign_date" position="replace"></field>
+            <field name="scrap_date" position="replace"></field>
+            <field name="technician_user_id" position="replace"></field>
+
+            <field name="model" position="replace"></field>
+            <field name="serial_no" position="replace"></field>
+
+            <widget name="web_ribbon" position="before">
+                <field name="img3" widget="image" style="width:100px;float: right;padding-right:10px"/>
+                <field name="img2" widget="image" style="width:100px;float: right;padding-right:10px"/>
+                <field name="img1" widget="image" style="width:400px;float: right;padding-right:10px"/>
+            </widget>
+
+            <field name="location" position="replace">
+                <field name="product_id" readonly="1" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}" />
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><separator attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}">Tachograph</span>
+                    <field name="tachograph" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="exempt_tachograph" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                <br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}">ITV</span>
+                    <field name="exempt_itv" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="date_next_itv" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                <br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}">Documentation</span>
+                    <field name="insurance_policy" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="insurance_validity" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="insurance_payment_receipt" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="ce_certificate" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="user_manual" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="driving_license" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="exploded_manual" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="data_sheet" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="tachograph_exemption_certificate" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="coc_1" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="coc_2" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+            </field>
+            <field name="active" position="after">
+                <field name="product_class" required="1" />
+                <field name="equipment_type_id" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}" required="1"
+                  attrs="{'readonly': [('equipment_type_id','!=', False)]}"/>
+            </field>
+            <field name="category_id" position="attributes">
+                <attribute name="attrs">{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}</attribute>
+            </field>
+            <field name="category_id" position="attributes">
+                <attribute name="string">Categoría mantenimiento</attribute>
+            </field>
+            <field name="category_id" position="after">
+                <field name="categ_id" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}"
+                        attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}" />
+                <field name="equipment_brand_id"  options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <field name="equipment_model_id"  options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <field name="equipment_version"  options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <field name="serial_no" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                <field name="chassis_number" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}" />
+                <br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}">Warranties</span>
+                    <field name="warranty_end_date_supplier" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                    <field name="warranty_end_date_customer" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                    <field name="purchase_date" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                    <field name="fabrication_date" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_extinguisher)d)]}">Extinguisher</span>
+                    <field name="review_date" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_extinguisher)d)]}"/>
+                    <field name="review_type" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_extinguisher)d)]}"/>
+                <br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_gearbox)d)]}">Gearbox</span>
+                    <field name="gearbox_type" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_gearbox)d)]}"/>
+                <br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_engine)d)]}">Engine</span>
+                    <field name="fuel_type" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_engine)d)]}"/>
+                    <field name="euro_regulation" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_engine)d)]}"/>
+                    <field name="cc" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_engine)d)]}"/>
+                    <field name="kw" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_engine)d)]}"/>
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}">Vehicle</span>
+                    <field name="last_hours_running" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="state" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="location" string='Location' attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="last_km" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="car_registration" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="car_registration2" attrs="{'invisible': ['|',('car_registration','=',False),('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="last_registration_date" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="current_customer" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="id_webfleet" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="keys_code" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="radio_code" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                <br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/><br attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}"/>
+                <span style="font-size:1.625rem" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}">Dimensions</span>
+                    <field name="axles_no" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="axle_distance_1_2" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="axle_distance_2_3" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="width" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="height" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="length" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+                    <field name="mma" attrs="{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}"/>
+            </field>
+
+            <field name="next_action_date" position="before">
+                <field name="maintenance_team_id" />
+                <field name="technician_user_id" />
+                <field name="assign_date" />
+                <field name="scrap_date" />
+            </field>
+            <page name="product_information" position="attributes">
+                <attribute name="attrs">{'invisible': [('equipment_type_id','!=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}</attribute>
+            </page>
+
+            <xpath expr="//notebook" position="inside">
+                <page name="Associated_equipment" string="Associated equipment" attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d)]}">
+                    <group attrs="{'invisible': [('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]}">
+                        <field name="associated_equipment_id" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}"
+                        domain="[('equipment_type_id','=', %(wasterent_vehicles.product_template_equipment_type_vehicle)d)]"/>
+                        <field name="equipment_name_rel" />
+                        <field name="equipment_serial_no_rel" />
+                        <field name="equipment_type_rel" />
+                        <field name="equipment_brand_rel" />
+                        <field name="equipment_model_rel" />
+                        <field name="equipment_version_rel" />
+                    </group>
+                    <group string="Associated equipment">
+                        <field name="associated_equipment_ids" nolabel="1" domain="[('id', 'not in', [active_id, associated_equipment_id]),('equipment_type_id','not in', [%(wasterent_vehicles.product_template_equipment_type_vehicle)d, %(wasterent_vehicles.product_template_equipment_type_internal_equipment)d])]">
+                            <tree>
+                                <field name="sequence" widget="handle" />
+                                <field name="name" />
+                                <field name="serial_no" />
+                                <field name="equipment_type_id" />
+                                <field name="equipment_brand_id" />
+                                <field name="equipment_model_id" />
+                                <field name="equipment_version" />
+                            </tree>
+                        </field>
+                    </group>
+                </page>
+                <page name="images" string="Images">
+                    <field name="equipment_images_ids" nolabel="1" >
+                            <tree editable="bottom">
+                                <field name="sequence" widget="handle" />
+                                <field name="name" />
+                                <field name="type_id" options="{'no_create':1, 'no_create_edit':1, 'no_open': 1}"/>
+                                <field name="image" widget="image" class="oe_avatar"/>
+                            </tree>
+                        </field>
+                </page>
+            </xpath>
+<!--            <field name="owner_user_id" position="attributes">
+                <attribute name="invisible">True</attribute>
+            </field>-->
+        </field>
+        <field name="field_parent" eval="False"/>
+        <field name="groups_id" eval="[(6, 0, [])]"/>
+        <field name="inherit_id" ref="maintenance.hr_equipment_view_form"/>
+        <field name="key" eval="False"/>
+        <field name="mode">extension</field>
+        <field name="model">maintenance.equipment</field>
+        <field name="name">Form Maintenance Equipment Pentec</field>
+        <field name="priority">99</field>
+        <field name="type">form</field>
+    </record>
+    <record id="hr_maintenance.maintenance_equipment_view_form_inherit_hr" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record>
+
+</odoo>

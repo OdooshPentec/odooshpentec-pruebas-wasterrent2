@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="product_template_equipment_type_vehicle" model="simple.domain">
+            <field name="name">Vehículo</field>
+            <field name="code">0</field>
+            <field name="type">equipment_type</field>
+        </record>
+        <record id="product_template_equipment_type_gearbox" model="simple.domain">
+            <field name="name">Caja de cambios</field>
+            <field name="code">1</field>
+            <field name="type">equipment_type</field>
+        </record>
+        <record id="product_template_equipment_type_power_take_off" model="simple.domain">
+            <field name="name">Toma de fuerza</field>
+            <field name="code">3</field>
+            <field name="type">equipment_type</field>
+        </record>
+        <record id="product_template_equipment_type_engine" model="simple.domain">
+            <field name="name">Motor</field>
+            <field name="code">4</field>
+            <field name="type">equipment_type</field>
+        </record>
+        <record id="product_template_equipment_type_equipment" model="simple.domain">
+            <field name="name">Equipo</field>
+            <field name="code">5</field>
+            <field name="type">equipment_type</field>
+        </record>
+        <record id="product_template_equipment_type_extinguisher" model="simple.domain">
+            <field name="name">Extintor</field>
+            <field name="code">6</field>
+            <field name="type">equipment_type</field>
+        </record>
+        <record id="product_template_equipment_type_internal_equipment" model="simple.domain">
+            <field name="name">Equipo interno</field>
+            <field name="code">7</field>
+            <field name="type">equipment_type</field>
+        </record>
+
+        <record id="maintenance_equipment_review_type_annual" model="simple.domain">
+            <field name="name">Anual</field>
+            <field name="code">0</field>
+            <field name="type">review_type</field>
+        </record>
+        <record id="maintenance_equipment_review_type_quarterly" model="simple.domain">
+            <field name="name">Trimestral</field>
+            <field name="code">1</field>
+            <field name="type">review_type</field>
+        </record>
+        <record id="maintenance_equipment_review_type_5_years" model="simple.domain">
+            <field name="name">5 años</field>
+            <field name="code">2</field>
+            <field name="type">review_type</field>
+        </record>
+
+        <record id="maintenance_equipment_gearbox_type_manual" model="simple.domain">
+            <field name="name">Manual</field>
+            <field name="code">0</field>
+            <field name="type">gearbox_type</field>
+        </record>
+        <record id="maintenance_equipment_gearbox_type_robotized" model="simple.domain">
+            <field name="name">Robotizada</field>
+            <field name="code">1</field>
+            <field name="type">gearbox_type</field>
+        </record>
+        <record id="maintenance_equipment_gearbox_type_automatic" model="simple.domain">
+            <field name="name">Automática</field>
+            <field name="code">2</field>
+            <field name="type">gearbox_type</field>
+        </record>
+
+        <record id="maintenance_equipment_fuel_type_gasoline" model="simple.domain">
+            <field name="name">Gasolina</field>
+            <field name="code">0</field>
+            <field name="type">fuel_type</field>
+        </record>
+        <record id="maintenance_equipment_fuel_type_gasoil" model="simple.domain">
+            <field name="name">Gasoil</field>
+            <field name="code">1</field>
+            <field name="type">fuel_type</field>
+        </record>
+
+        <record id="equipment_images_type_left_side" model="simple.domain">
+            <field name="name">Lateral izquierda</field>
+            <field name="code">0</field>
+            <field name="type">equipment_images</field>
+        </record>
+        <record id="equipment_images_type_right_side" model="simple.domain">
+            <field name="name">Lateral derecha</field>
+            <field name="code">1</field>
+            <field name="type">equipment_images</field>
+        </record>
+        <record id="equipment_images_type_front_front" model="simple.domain">
+            <field name="name">Frontal anterior</field>
+            <field name="code">2</field>
+            <field name="type">equipment_images</field>
+        </record>
+        <record id="equipment_images_type_front_rear" model="simple.domain">
+            <field name="name">Frontal posterior</field>
+            <field name="code">3</field>
+            <field name="type">equipment_images</field>
+        </record>
+        <record id="equipment_images_type_three_quarters" model="simple.domain">
+            <field name="name">Tres cuartos</field>
+            <field name="code">4</field>
+            <field name="type">equipment_images</field>
+        </record>
+        <record id="equipment_images_type_serial_no" model="simple.domain">
+            <field name="name">Nº de serie</field>
+            <field name="code">5</field>
+            <field name="type">equipment_images</field>
+        </record>
+        <record id="equipment_images_type_chassis_plate" model="simple.domain">
+            <field name="name">Bastidor placa</field>
+            <field name="code">6</field>
+            <field name="type">equipment_images</field>
+        </record>
+        <record id="equipment_images_type_chassis_die" model="simple.domain">
+            <field name="name">Bastidor troquel</field>
+            <field name="code">7</field>
+            <field name="type">equipment_images</field>
+        </record>
+    </data>
+</odoo>
