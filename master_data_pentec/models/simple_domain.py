@@ -26,10 +26,10 @@ class SimpleDomain(models.Model):
         default=True
     )
 
-    _sql_constraints = [
-        (
-            _('Code field as unique'),
-            'unique(code, type)',
-            _('Field Code must be unique for the same type')
-        )
-    ]
+    #_sql_constraints = [
+    #    (
+    #        _('Code field as unique'),
+    #        'unique(code, type)',
+    #        _('Field Code must be unique for the same type')
+    #    )
+    #]
